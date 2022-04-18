@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Interactive pricing component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="introduction-paragraph">
+      <h1 class="heading">Simple, traffic-based pricing</h1>
+      <p>Sign-up for our 30-day trial. No credit card required.</p>
+    </div>
+    <div class="box-container">
+      <div class="pricing">
+        <p>
+          <label id="pageview-amount" class="pageview"></label>
+          <span class="pageview">Pageviews</span>
+        </p>
+        <p><label id="money-amount"></label> /month</p>
+      </div>
+      <div class="slider-container">
+        <input
+          type="range"
+          min="1"
+          max="5"
+          value="3"
+          step="1"
+          class="slider"
+          id="slider"
+        />
+      </div>
+      <div class="switch-container">
+        <p class="monthly-bill">Monthly Billing</p>
+        <label class="switch">
+          <input type="checkbox" id="switch" />
+          <span class="swap"></span>
+        </label>
+        <p class="yearly-bill">Yearly Billing</p>
+        <p class="discount">25% discount</p>
+      </div>
+      <div class="cta">
+        <div class="features">
+          <div class="first-feature">
+            <img src="./images/icon-check.svg" alt="" />
+            <p>Unlimited websites</p>
+          </div>
+          <div>
+            <img src="./images/icon-check.svg" alt="" />
+            <p>100% data ownership</p>
+          </div>
+          <div>
+            <img src="./images/icon-check.svg" alt="" />
+            <p>Email reports</p>
+          </div>
+        </div>
+        <div class="button">
+          <button type="submit" class="cta-button">Start my trial</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/Alihanayd" target="_blank">Alihan Aydın</a>.
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
