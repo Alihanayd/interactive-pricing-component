@@ -27,6 +27,7 @@ body {
   background-image: url("./images/bg-pattern.svg");
   background-size: auto;
   background-repeat: no-repeat;
+  background-color: #f1f5fe;
 }
 .introduction-paragraph {
   margin: 35px 0;
