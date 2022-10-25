@@ -1,0 +1,24 @@
+@media (max-width: 1024px) {
+  .switch-container {
+    padding-right: 0;
+    padding-left: 110px;
+  }
+  .box-container {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .switch-container {
+    padding-left: 85px;
+  }
+}
+
+@media (max-width: 425px) {
+  .box-container {
+    width: 90%;
+  }
+  .switch-container {
+    padding-left: 0;
+  }
+}
